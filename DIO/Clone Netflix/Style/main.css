@@ -18,20 +18,31 @@ header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: baseline;
+    
 }
 
 header .logo   {
     color: var(--vermelho);
-    font-family: 'Segoe UI', 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Helvetica';
+    font-size: 25px;
     margin-left: 5px;
+    font-weight: 400;
+    margin-right: 50px;
+    
 }
 
 header nav a {
     text-decoration: none;
     color: #aaa;
+    margin-left: 20px;
     margin-right: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Helvetica' ;
+    
     
 }
 
